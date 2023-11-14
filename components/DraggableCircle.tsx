@@ -84,8 +84,8 @@ function DraggableCircle({ item, dropZonePosition }: Props): ReactElement {
 
                   // 3 seconds delay to open date time picker scale 0 to 1
                   initial={{scale:0}}
-                  // animate={{scale:1}}
-                  // transition={{delay:1003}}
+                  animate={{scale:1}}
+                  transition={{delay:13}}
 
 
                   className="absolute" 
